@@ -25,5 +25,3 @@ O projeto Java possui os seguintes pacotes:
 
 - link:src/main/java/com/sistemabancario/dao[dao]: ver definição no arquivo link:src/main/java/com/sistemabancario/dao/package-info.java[package-info.java].
 - link:src/main/java/com/sistemabancario/model[model]: ver definição no arquivo link:src/main/java/com/sistemabancario/model/package-info.java[package-info.java].
-
-O diagrama acima são para as classes do pacote _model_.
