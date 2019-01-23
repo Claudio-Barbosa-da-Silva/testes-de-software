@@ -26,7 +26,8 @@ public class Movimentacao {
     private char tipo;
 
     /**
-     *
+     * Valor monetário da movimentação.
+     * O valor não deve ser negativo, uma vez que existe o atributo {@link #tipo}.
      */
     private double valor;
 
