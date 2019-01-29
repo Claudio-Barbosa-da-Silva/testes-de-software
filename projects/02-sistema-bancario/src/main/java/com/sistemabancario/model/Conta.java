@@ -31,12 +31,6 @@ public class Conta implements Cadastro {
     private boolean especial;
 
     /**
-     * Default constructor
-     */
-    public Conta() {
-    }
-
-    /**
      * 
      */
     private double saldo;
@@ -46,14 +40,10 @@ public class Conta implements Cadastro {
      */
     private double limite;
 
-
-
-
     /**
-     * 
+     * Default constructor
      */
-    public void Conta() {
-        // TODO: Você precisa implementar este método
+    public Conta() {
     }
 
     /**
@@ -112,6 +102,7 @@ public class Conta implements Cadastro {
     /**
      * @return
      */
+    @Override
     public long getId() {
         // TODO: Você precisa implementar este método
         return 0;
@@ -120,8 +111,8 @@ public class Conta implements Cadastro {
     /**
      * @param id
      */
+    @Override
     public void setId(long id) {
         // TODO: Você precisa implementar este método
     }
-
 }
